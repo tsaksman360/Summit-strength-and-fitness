@@ -590,7 +590,6 @@ h1, h2, h3, h4 {
   .section { padding: 72px 0; }
   .stats { justify-content: flex-start;
   margin-top: 11em;
-  border: solid 3px red;
   }
   .stat-text .num { font-size: 26px; }
 
