@@ -240,7 +240,7 @@ h1, h2, h3, h4 {
 .stat-icon {
   color: var(--red);
   width: 40px; height: 40px;
-  display: grid; place-items: center;
+  display: grid; p9emitems: center;
   flex-shrink: 0;
 }
 .stat-text .num {
@@ -589,7 +589,7 @@ h1, h2, h3, h4 {
 
   .section { padding: 72px 0; }
   .stats { justify-content: flex-start;
-  margin-top: 9em;
+  margin-top: 11em;
   }
   .stat-text .num { font-size: 26px; }
 
