@@ -554,7 +554,7 @@ h1, h2, h3, h4 {
   }
   .nav-mobile .btn { margin-top: 20px; width: 100%; padding-left: 3em; }
 
-  .hero { min-height: auto; padding: 120px 0 80px; }
+  .hero { max-height: 100vh; padding: 120px 0 80px; }
   .hero-bg { background-position: 70% center; }
   .hero-bg::after {
     background:
@@ -588,7 +588,9 @@ h1, h2, h3, h4 {
 }
 
   .section { padding: 72px 0; }
-  .stat { justify-content: flex-start; }
+  .stats { justify-content: flex-start;
+  margin-top: 9em;
+  }
   .stat-text .num { font-size: 26px; }
 
   .about-media { grid-template-columns: 1fr; height: auto; }
